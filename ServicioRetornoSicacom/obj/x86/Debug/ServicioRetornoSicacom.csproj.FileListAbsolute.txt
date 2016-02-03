@@ -1,0 +1,11 @@
+C:\Users\Softtek.BO27860COL\Documents\Visual Studio 2010\Projects\ServicioRetornoSicacom\ServicioRetornoSicacom\bin\Debug\ServicioRetornoSicacom.exe.config
+C:\Users\Softtek.BO27860COL\Documents\Visual Studio 2010\Projects\ServicioRetornoSicacom\ServicioRetornoSicacom\bin\Debug\ServicioRetornoSicacom.exe
+C:\Users\Softtek.BO27860COL\Documents\Visual Studio 2010\Projects\ServicioRetornoSicacom\ServicioRetornoSicacom\bin\Debug\ServicioRetornoSicacom.pdb
+C:\Users\Softtek.BO27860COL\Documents\Visual Studio 2010\Projects\ServicioRetornoSicacom\ServicioRetornoSicacom\bin\Debug\BussinessLayer.dll
+C:\Users\Softtek.BO27860COL\Documents\Visual Studio 2010\Projects\ServicioRetornoSicacom\ServicioRetornoSicacom\bin\Debug\DataLayer.dll
+C:\Users\Softtek.BO27860COL\Documents\Visual Studio 2010\Projects\ServicioRetornoSicacom\ServicioRetornoSicacom\bin\Debug\Oracle.DataAccess.dll
+C:\Users\Softtek.BO27860COL\Documents\Visual Studio 2010\Projects\ServicioRetornoSicacom\ServicioRetornoSicacom\bin\Debug\BussinessLayer.pdb
+C:\Users\Softtek.BO27860COL\Documents\Visual Studio 2010\Projects\ServicioRetornoSicacom\ServicioRetornoSicacom\bin\Debug\DataLayer.pdb
+C:\Users\Softtek.BO27860COL\Documents\Visual Studio 2010\Projects\ServicioRetornoSicacom\ServicioRetornoSicacom\obj\x86\Debug\ServicioRetornoSicacom.csprojResolveAssemblyReference.cache
+C:\Users\Softtek.BO27860COL\Documents\Visual Studio 2010\Projects\ServicioRetornoSicacom\ServicioRetornoSicacom\obj\x86\Debug\ServicioRetornoSicacom.exe
+C:\Users\Softtek.BO27860COL\Documents\Visual Studio 2010\Projects\ServicioRetornoSicacom\ServicioRetornoSicacom\obj\x86\Debug\ServicioRetornoSicacom.pdb

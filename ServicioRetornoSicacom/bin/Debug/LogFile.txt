@@ -1,0 +1,2 @@
+11/25/2015 9:36:21 AM: Oracle.DataAccess: OracleConnection.ConnectionString is invalid
+11/25/2015 9:36:26 AM: Oracle.DataAccess: OracleConnection.ConnectionString is invalid

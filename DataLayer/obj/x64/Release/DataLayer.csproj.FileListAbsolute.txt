@@ -1,0 +1,5 @@
+C:\Users\Softtek.BO27860COL\Documents\Visual Studio 2010\Projects\ServicioRetornoSicacom\DataLayer\bin\x64\Release\DataLayer.dll
+C:\Users\Softtek.BO27860COL\Documents\Visual Studio 2010\Projects\ServicioRetornoSicacom\DataLayer\bin\x64\Release\DataLayer.pdb
+C:\Users\Softtek.BO27860COL\Documents\Visual Studio 2010\Projects\ServicioRetornoSicacom\DataLayer\bin\x64\Release\Oracle.DataAccess.dll
+C:\Users\Softtek.BO27860COL\Documents\Visual Studio 2010\Projects\ServicioRetornoSicacom\DataLayer\obj\x64\Release\DataLayer.dll
+C:\Users\Softtek.BO27860COL\Documents\Visual Studio 2010\Projects\ServicioRetornoSicacom\DataLayer\obj\x64\Release\DataLayer.pdb

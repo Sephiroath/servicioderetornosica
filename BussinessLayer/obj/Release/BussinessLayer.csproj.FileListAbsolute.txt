@@ -1,0 +1,11 @@
+C:\Users\Softtek.BO27860COL\documents\visual studio 2010\Projects\ServicioRetornoSicacom\BussinessLayer\bin\Release\BussinessLayer.dll.config
+C:\Users\Softtek.BO27860COL\documents\visual studio 2010\Projects\ServicioRetornoSicacom\BussinessLayer\bin\Release\BussinessLayer.dll
+C:\Users\Softtek.BO27860COL\documents\visual studio 2010\Projects\ServicioRetornoSicacom\BussinessLayer\bin\Release\BussinessLayer.XmlSerializers.dll
+C:\Users\Softtek.BO27860COL\documents\visual studio 2010\Projects\ServicioRetornoSicacom\BussinessLayer\bin\Release\BussinessLayer.pdb
+C:\Users\Softtek.BO27860COL\documents\visual studio 2010\Projects\ServicioRetornoSicacom\BussinessLayer\bin\Release\DataLayer.dll
+C:\Users\Softtek.BO27860COL\documents\visual studio 2010\Projects\ServicioRetornoSicacom\BussinessLayer\bin\Release\Oracle.DataAccess.dll
+C:\Users\Softtek.BO27860COL\documents\visual studio 2010\Projects\ServicioRetornoSicacom\BussinessLayer\bin\Release\DataLayer.pdb
+C:\Users\Softtek.BO27860COL\documents\visual studio 2010\Projects\ServicioRetornoSicacom\BussinessLayer\obj\Release\BussinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Softtek.BO27860COL\documents\visual studio 2010\Projects\ServicioRetornoSicacom\BussinessLayer\obj\Release\BussinessLayer.dll
+C:\Users\Softtek.BO27860COL\documents\visual studio 2010\Projects\ServicioRetornoSicacom\BussinessLayer\obj\Release\BussinessLayer.pdb
+C:\Users\Softtek.BO27860COL\documents\visual studio 2010\Projects\ServicioRetornoSicacom\BussinessLayer\obj\Release\BussinessLayer.XmlSerializers.dll

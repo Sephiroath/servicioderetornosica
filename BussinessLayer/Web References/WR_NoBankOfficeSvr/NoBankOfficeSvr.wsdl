@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="solicitudDeposito">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="solicitudDeposito" type="tns:DepSolicitud" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DepSolicitud">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CanalOrigen" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IdentificacionDispositivo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LocalizacionDispositivo" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaTransaccion" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="HoraTransaccion" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="NumeroSecuencia" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="IdentificacionUsuario" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ClaveUsuario" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ClaveOTP" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="CodigoTransaccion" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroTerminal" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="EntidadOrigen" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="TipoProductoOrigen" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="NumeroProductoOrigen" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="EntidadDestino" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="TipoProductoDestino" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="NumeroProductoDestino" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="ValorDeposito" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="NumeroCelular" type="s:long" />
+          <s:element minOccurs="0" maxOccurs="1" name="IndicadorReverso" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="solicitudDepositoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="solicitudDepositoResult" type="tns:DepRespuesta" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DepRespuesta">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CanalOrigen" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IdentificacionDispositivo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LocalizacionDispositivo" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaTransaccion" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="HoraTransaccion" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="NumeroSecuencia" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="CodigoRespuesta" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="MensajeRespuesta" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="TipoError" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="NumeroAutorizacion" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="CostoTransaccion" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaCompensacion" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="solicitudRetiro">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="solicitudRetiro" type="tns:RetSolicitud" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="RetSolicitud">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CanalOrigen" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IdentificacionDispositivo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LocalizacionDispositivo" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaTransaccion" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="HoraTransaccion" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="NumeroSecuencia" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="IdentificacionUsuario" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ClaveUsuario" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ClaveOTP" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="CodigoTransaccion" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroTerminal" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="EntidadOrigen" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="TipoProductoOrigen" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="NumeroProductoOrigen" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="EntidadDestino" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="TipoProductoDestino" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="NumeroProductoDestino" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="ValorRetiro" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="NumeroCelular" type="s:long" />
+          <s:element minOccurs="0" maxOccurs="1" name="IndicadorReverso" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="solicitudRetiroResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="solicitudRetiroResult" type="tns:RetRespuesta" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="RetRespuesta">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CanalOrigen" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IdentificacionDispositivo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LocalizacionDispositivo" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaTransaccion" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="HoraTransaccion" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="NumeroSecuencia" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="CodigoRespuesta" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="MensajeRespuesta" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="TipoError" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="NumeroAutorizacion" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="CostoTransaccion" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaCompensacion" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getParameter">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="idParametros" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getParameterResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getParameterResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Reproceso">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Region" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReprocesoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ReprocesoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="solicitudDepositoSoapIn">
+    <wsdl:part name="parameters" element="tns:solicitudDeposito" />
+  </wsdl:message>
+  <wsdl:message name="solicitudDepositoSoapOut">
+    <wsdl:part name="parameters" element="tns:solicitudDepositoResponse" />
+  </wsdl:message>
+  <wsdl:message name="solicitudRetiroSoapIn">
+    <wsdl:part name="parameters" element="tns:solicitudRetiro" />
+  </wsdl:message>
+  <wsdl:message name="solicitudRetiroSoapOut">
+    <wsdl:part name="parameters" element="tns:solicitudRetiroResponse" />
+  </wsdl:message>
+  <wsdl:message name="getParameterSoapIn">
+    <wsdl:part name="parameters" element="tns:getParameter" />
+  </wsdl:message>
+  <wsdl:message name="getParameterSoapOut">
+    <wsdl:part name="parameters" element="tns:getParameterResponse" />
+  </wsdl:message>
+  <wsdl:message name="ReprocesoSoapIn">
+    <wsdl:part name="parameters" element="tns:Reproceso" />
+  </wsdl:message>
+  <wsdl:message name="ReprocesoSoapOut">
+    <wsdl:part name="parameters" element="tns:ReprocesoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="NoBankOfficeSvrSoap">
+    <wsdl:operation name="solicitudDeposito">
+      <wsdl:input message="tns:solicitudDepositoSoapIn" />
+      <wsdl:output message="tns:solicitudDepositoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="solicitudRetiro">
+      <wsdl:input message="tns:solicitudRetiroSoapIn" />
+      <wsdl:output message="tns:solicitudRetiroSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getParameter">
+      <wsdl:input message="tns:getParameterSoapIn" />
+      <wsdl:output message="tns:getParameterSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Reproceso">
+      <wsdl:input message="tns:ReprocesoSoapIn" />
+      <wsdl:output message="tns:ReprocesoSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="NoBankOfficeSvrSoap" type="tns:NoBankOfficeSvrSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="solicitudDeposito">
+      <soap:operation soapAction="http://tempuri.org/solicitudDeposito" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="solicitudRetiro">
+      <soap:operation soapAction="http://tempuri.org/solicitudRetiro" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getParameter">
+      <soap:operation soapAction="http://tempuri.org/getParameter" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Reproceso">
+      <soap:operation soapAction="http://tempuri.org/Reproceso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="NoBankOfficeSvrSoap12" type="tns:NoBankOfficeSvrSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="solicitudDeposito">
+      <soap12:operation soapAction="http://tempuri.org/solicitudDeposito" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="solicitudRetiro">
+      <soap12:operation soapAction="http://tempuri.org/solicitudRetiro" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getParameter">
+      <soap12:operation soapAction="http://tempuri.org/getParameter" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Reproceso">
+      <soap12:operation soapAction="http://tempuri.org/Reproceso" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="NoBankOfficeSvr">
+    <wsdl:port name="NoBankOfficeSvrSoap" binding="tns:NoBankOfficeSvrSoap">
+      <soap:address location="https://132.147.170.182/pru_sucban/NoBankOfficeSvr.asmx" />
+    </wsdl:port>
+    <wsdl:port name="NoBankOfficeSvrSoap12" binding="tns:NoBankOfficeSvrSoap12">
+      <soap12:address location="https://132.147.170.182/pru_sucban/NoBankOfficeSvr.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

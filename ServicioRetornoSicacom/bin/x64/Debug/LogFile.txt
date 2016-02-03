@@ -1,0 +1,6 @@
+12/9/2015 9:48:04 AM: Oracle.DataAccess: Se produjo una excepción en el inicializador de tipo de 'Oracle.DataAccess.Client.OracleConnection'.
+12/9/2015 9:48:08 AM: Oracle.DataAccess: Se produjo una excepción en el inicializador de tipo de 'Oracle.DataAccess.Client.OracleConnection'.
+12/9/2015 9:48:40 AM: Oracle.DataAccess: Se produjo una excepción en el inicializador de tipo de 'Oracle.DataAccess.Client.OracleConnection'.
+12/9/2015 9:49:31 AM: Oracle.DataAccess: Se produjo una excepción en el inicializador de tipo de 'Oracle.DataAccess.Client.OracleConnection'.
+12/9/2015 9:50:49 AM: Oracle.DataAccess: Se produjo una excepción en el inicializador de tipo de 'Oracle.DataAccess.Client.OracleConnection'.
+12/9/2015 9:53:06 AM: Oracle.DataAccess: Se produjo una excepción en el inicializador de tipo de 'Oracle.DataAccess.Client.OracleConnection'.

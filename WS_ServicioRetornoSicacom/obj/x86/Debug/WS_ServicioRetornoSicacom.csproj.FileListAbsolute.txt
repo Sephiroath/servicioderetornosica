@@ -1,0 +1,13 @@
+C:\Users\Softtek.BO27860COL\documents\visual studio 2010\Projects\ServicioRetornoSicacom\WS_ServicioRetornoSicacom\bin\Debug\WS_ServicioRetornoSicacom.exe.config
+C:\Users\Softtek.BO27860COL\documents\visual studio 2010\Projects\ServicioRetornoSicacom\WS_ServicioRetornoSicacom\bin\Debug\WS_ServicioRetornoSicacom.exe
+C:\Users\Softtek.BO27860COL\documents\visual studio 2010\Projects\ServicioRetornoSicacom\WS_ServicioRetornoSicacom\bin\Debug\WS_ServicioRetornoSicacom.pdb
+C:\Users\Softtek.BO27860COL\documents\visual studio 2010\Projects\ServicioRetornoSicacom\WS_ServicioRetornoSicacom\bin\Debug\BussinessLayer.dll
+C:\Users\Softtek.BO27860COL\documents\visual studio 2010\Projects\ServicioRetornoSicacom\WS_ServicioRetornoSicacom\bin\Debug\DataLayer.dll
+C:\Users\Softtek.BO27860COL\documents\visual studio 2010\Projects\ServicioRetornoSicacom\WS_ServicioRetornoSicacom\bin\Debug\Oracle.DataAccess.dll
+C:\Users\Softtek.BO27860COL\documents\visual studio 2010\Projects\ServicioRetornoSicacom\WS_ServicioRetornoSicacom\bin\Debug\BussinessLayer.pdb
+C:\Users\Softtek.BO27860COL\documents\visual studio 2010\Projects\ServicioRetornoSicacom\WS_ServicioRetornoSicacom\bin\Debug\DataLayer.pdb
+C:\Users\Softtek.BO27860COL\documents\visual studio 2010\Projects\ServicioRetornoSicacom\WS_ServicioRetornoSicacom\obj\x86\Debug\WS_ServicioRetornoSicacom.csprojResolveAssemblyReference.cache
+C:\Users\Softtek.BO27860COL\documents\visual studio 2010\Projects\ServicioRetornoSicacom\WS_ServicioRetornoSicacom\obj\x86\Debug\WS_ServicioRetornoSicacom.ProjectInstaller.resources
+C:\Users\Softtek.BO27860COL\documents\visual studio 2010\Projects\ServicioRetornoSicacom\WS_ServicioRetornoSicacom\obj\x86\Debug\WS_ServicioRetornoSicacom.csproj.GenerateResource.Cache
+C:\Users\Softtek.BO27860COL\documents\visual studio 2010\Projects\ServicioRetornoSicacom\WS_ServicioRetornoSicacom\obj\x86\Debug\WS_ServicioRetornoSicacom.exe
+C:\Users\Softtek.BO27860COL\documents\visual studio 2010\Projects\ServicioRetornoSicacom\WS_ServicioRetornoSicacom\obj\x86\Debug\WS_ServicioRetornoSicacom.pdb
